@@ -396,7 +396,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* =========================================================================
    MESSAGE
    ========================================================================= */
-.msg-photo { border-radius: 14px; overflow: hidden; aspect-ratio: 4 / 3; margin: 6px auto 22px; box-shadow: var(--shadow); }
+.msg-photo { width: 280px; max-width: 100%; aspect-ratio: 280 / 241; border-radius: 14px; overflow: hidden; margin: 6px auto 22px; box-shadow: var(--shadow); }
 .msg-quote { text-align: center; font-weight: 700; color: var(--ink); font-size: clamp(16px, 4.4vw, 19px); line-height: 1.7; margin-bottom: 22px; }
 
 /* =========================================================================
