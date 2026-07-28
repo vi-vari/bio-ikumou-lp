@@ -201,8 +201,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   background: #fff; border: 1px solid #ece7da; border-radius: 12px;
   padding: 16px 8px 14px; text-align: center; box-shadow: var(--shadow-sm);
 }
-.trust-card .ico { color: var(--gold); width: 30px; height: 30px; margin: 0 auto 8px; }
-.trust-card img.ico { object-fit: contain; }
+.trust-card .ico { color: #1c2c4a; width: 30px; height: 30px; margin: 0 auto 8px; }
+.trust-card img.ico { width: 35px; height: 35px; object-fit: contain; }
 .trust-card b { display: block; color: var(--ink); font-size: clamp(12.5px, 3.4vw, 14px); font-weight: 700; }
 .trust-card span { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; }
 
