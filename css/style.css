@@ -202,6 +202,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   padding: 16px 8px 14px; text-align: center; box-shadow: var(--shadow-sm);
 }
 .trust-card .ico { color: var(--gold); width: 30px; height: 30px; margin: 0 auto 8px; }
+.trust-card img.ico { object-fit: contain; }
 .trust-card b { display: block; color: var(--ink); font-size: clamp(12.5px, 3.4vw, 14px); font-weight: 700; }
 .trust-card span { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; }
 
