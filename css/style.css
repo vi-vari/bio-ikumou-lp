@@ -361,6 +361,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .num-card__head b { font-size: clamp(14.5px, 4vw, 16px); font-weight: 700; line-height: 1.45; }
 .num-card__body { display: flex; gap: 14px; align-items: flex-start; padding: 18px; }
 .num-card__body .ico { flex: none; width: 42px; height: 42px; color: var(--navy); }
+.num-card__body img.ico { object-fit: contain; }
 .num-card__body p { color: var(--body); font-size: 14px; line-height: 1.85; }
 
 /* Hair cycle diagram */
