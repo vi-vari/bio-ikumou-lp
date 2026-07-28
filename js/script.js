@@ -20,17 +20,7 @@
   }
 
   /* --------------------------------------------------------------
-     画面下の固定 CTA バー：最下部（フッター）まで来たら重複を避けて隠す。
+     画面下の固定 CTA バーは常時表示（最下部・フッターでも隠さない）。
+     コンテンツが隠れないよう body に padding-bottom を確保済み。
      -------------------------------------------------------------- */
-  var sticky = document.querySelector(".sticky-cta");
-  var footer = document.querySelector(".site-footer");
-  if (!sticky || !footer || !("IntersectionObserver" in window)) return;
-
-  new IntersectionObserver(function (entries) {
-    entries.forEach(function (e) {
-      sticky.style.transform = e.isIntersecting ? "translateY(120%)" : "translateY(0)";
-    });
-  }, { threshold: 0 }).observe(footer);
-
-  sticky.style.transition = "transform .25s ease";
 })();
