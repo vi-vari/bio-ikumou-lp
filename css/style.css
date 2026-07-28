@@ -268,22 +268,19 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* =========================================================================
    CONCEPT
    ========================================================================= */
-.follicle-band { background: #f3ecdb; border-radius: 12px; padding: 16px 14px; margin: 26px 0 8px; }
-.follicle-band svg { width: 100%; height: auto; display: block; }
-.follicle-legend { display: flex; justify-content: space-between; gap: 10px; margin-top: 10px; }
-.follicle-legend div { text-align: center; flex: 1; }
-.follicle-legend b { display: block; color: var(--ink); font-size: 12px; }
-.follicle-legend span { color: var(--gold); font-size: 10px; }
+.follicle-band { border-radius: 12px; overflow: hidden; margin: 26px 0 8px; }
+.follicle-band__img { width: 100%; height: auto; display: block; }
 
 .oi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 18px; }
 .oi-card {
   background: #fff; border: 1px solid #ece7da; border-radius: 14px;
-  padding: 22px 18px; text-align: center; box-shadow: var(--shadow-sm);
+  padding: 22px 18px; box-shadow: var(--shadow-sm);
+  display: flex; flex-direction: column; align-items: center; text-align: center;
 }
 .oi-tag { display: inline-block; background: var(--gold); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .12em; padding: 5px 14px; border-radius: 999px; }
-.oi-card .ico { width: 46px; height: 46px; margin: 14px auto 10px; color: var(--navy); }
+.oi-ico { display: block; height: 52px; width: auto; max-width: 80%; margin: 16px 0 12px; object-fit: contain; }
 .oi-card b { display: block; color: var(--ink); font-size: clamp(15px, 4vw, 17px); font-weight: 700; line-height: 1.5; }
-.oi-card p { margin-top: 10px; color: var(--body); font-size: 13px; line-height: 1.8; text-align: left; }
+.oi-card p { width: 100%; margin-top: 10px; color: var(--body); font-size: 13px; line-height: 1.8; text-align: center; }
 .concept-foot { text-align: center; margin-top: 30px; font-family: var(--serif); font-size: clamp(18px, 5vw, 22px); color: var(--ink); line-height: 1.7; }
 .concept-foot .stamp {
   display: inline-block; margin-top: 8px; background: var(--gold); color: #fff;
