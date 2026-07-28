@@ -372,6 +372,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .cycle-cell { text-align: center; }
 .cycle-cell .art { width: 100%; max-width: 96px; margin: 0 auto; color: var(--navy); }
 .cycle-cell img.art { display: block; height: auto; object-fit: contain; }
+/* 施術前／施術後（横長画像）は成長期などと同じ高さ(約96px)で表示 */
+.cycle-row.duo .cycle-cell img.art { width: auto; height: 96px; max-width: 100%; }
 .cycle-cell b { display: block; color: var(--ink); font-size: 12.5px; margin-top: 6px; font-weight: 700; }
 .cycle-cell span { display: block; color: var(--gold); font-size: 11px; }
 .cycle-arrow { color: var(--gold); font-size: 18px; }
