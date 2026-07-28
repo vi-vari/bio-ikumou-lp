@@ -76,26 +76,20 @@ Figma デザイン（[LP / node 444:5](https://www.figma.com/design/Nd86bU4YvLSd
 
 ## 📷 画像マニフェスト（`images/bio/` に配置）
 
-> **重要 / 現状（2026-07）**: Figma のアセット配信ホスト（`www.figma.com`）が本セッションの
-> egress ポリシーでブロックされているため、**写真の実データは未取得です**。
-> 各写真箇所は正しいアスペクト比の**プレースホルダー**として表示されます。
-> 下表のファイル名で `images/bio/` に画像を置くと、プレースホルダーが自動で置き換わります
-> （`<img>` の `onerror` フォールバックで実装）。
->
-> 画像は Figma から手動でエクスポート（各ノードを選択 → Export）するか、
-> `www.figma.com` を egress 許可リストに追加のうえ再取得してください。
+> **現状**: 写真は `images/bio/` にアップロード済み（`.png`）で、各箇所に表示されます。
+> 差し替える場合は同じファイル名で上書きしてください（`<img>` の `onerror` で未配置時はプレースホルダー表示）。
 
 | ファイル名 | 用途 | 比率（目安） |
 | --- | --- | --- |
-| `hero-main.jpg` | ヒーローのメインビジュアル（施術風景） | 約 636:380（横長） |
-| `ba1-before.jpg` / `ba1-after.jpg` | 実績①（20代男性・分け目） | 1:1（正方形） |
-| `ba2-before.jpg` / `ba2-after.jpg` | 実績②（30代男性・抜け毛） | 1:1 |
-| `ba3-before.jpg` / `ba3-after.jpg` | 実績③（40代男性・生え際） | 1:1 |
-| `ba4-before.jpg` / `ba4-after.jpg` | 実績④（50代女性・分け目） | 1:1 |
-| `ba5-before.jpg` / `ba5-after.jpg` | 実績⑤（50代女性・頭頂部） | 1:1 |
-| `ba6-before.jpg` / `ba6-after.jpg` | 実績⑥（50代女性・頭頂部） | 1:1 |
-| `message.jpg` | 代表の想い（スタッフ写真） | 4:3（横長） |
-| `step1.jpg` 〜 `step5.jpg` | 初回施術の流れ STEP1〜5 の写真 | 16:10（横長） |
+| `hero-main.png` | ヒーローのメインビジュアル（施術風景） | 約 636:380（横長） |
+| `ba1-before.png` / `ba1-after.png` | 実績①（20代男性・分け目） | 1:1（正方形） |
+| `ba2-before.png` / `ba2-after.png` | 実績②（30代男性・抜け毛） | 1:1 |
+| `ba3-before.png` / `ba3-after.png` | 実績③（40代男性・生え際） | 1:1 |
+| `ba4-before.png` / `ba4-after.png` | 実績④（50代女性・分け目） | 1:1 |
+| `ba5-before.png` / `ba5-after.png` | 実績⑤（50代女性・頭頂部） | 1:1 |
+| `ba6-before.png` / `ba6-after.png` | 実績⑥（50代女性・頭頂部） | 1:1 |
+| `message.png` | 代表の想い（スタッフ写真） | 4:3（横長） |
+| `step1.png` 〜 `step5.png` | 初回施術の流れ STEP1〜5 の写真 | 16:10（横長） |
 
 合計 **19 点**（ヒーロー1 ＋ ビフォーアフター12 ＋ 代表1 ＋ STEP5）。
 ※ ヘアサイクル図・アイコン・比較チャートは HTML/SVG で再現しているため画像不要です。
