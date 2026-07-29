@@ -381,6 +381,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /* Comparison chart */
 .compare { margin-top: 34px; }
+.compare__img { width: 100%; height: auto; display: block; margin: 0 auto; }
 .compare__label { color: var(--ink); font-size: 13px; font-weight: 700; margin: 6px 0; }
 .compare__row {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; align-items: end;
